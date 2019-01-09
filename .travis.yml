@@ -9,3 +9,6 @@ deploy:
   provider: heroku
   api_key:
     secure: c243189e-ef15-49a2-a4ae-bc3911ac7297
+  app: ci-practice
+  on:
+    repo: CamiloRincon/ci
